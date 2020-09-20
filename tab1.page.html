@@ -1,0 +1,18 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Home
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+ 
+<ion-button expand="block" (click)="download()" padding> Download </ion-button>
+<ion-button expand="block" (click)="unzipping()" padding> Extract file </ion-button>
+<ion-label> {{progress}} </ion-label>
+<ion-button expand="block" (click)="pickfile()" padding> open website </ion-button>
+
+
+
+</ion-content>
